@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <nav class="navbar">
+          <div class="logo">PhotoFolio</div>
+
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <span class="Contact">
+            <img src="icon-email.svg" alt="Email Icon" />
+            <img src="icon-phone.svg" alt="phone icone" />
+            <img src="instagram (1).png" alt="Instagram Icon" width="20px" />
+          </span>
+        </nav>
+      </div>
+      <hr />
+      <section class="main-menu">
+        <h1>I'm Jenny Wilson a Professional Photographer from New York City</h1>
+        <p>
+          Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem
+          magni est deserunt sed qui libero. Qui voluptas amet.
+        </p>
+
+        <button class="btn">
+          <a href="Contact.html">Available for Hire</a>
+        </button>
+      </section>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            src="gallery-1.jpg"
+            alt="Image 1"
+            data-modal-target="#modal1"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal1">
+            <div class="modal-header">
+              <h2>Gallery Image 1</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-1.jpg" alt="Image 1 Large" />
+              <p>This is a beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-2.jpg"
+            alt="Image 2"
+            data-modal-target="#modal2"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal2">
+            <div class="modal-header">
+              <h2>Gallery Image 2</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-2.jpg" alt="Image 2 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-3.jpg"
+            alt="Image 3"
+            data-modal-target="#modal3"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal3">
+            <div class="modal-header">
+              <h2>Gallery Image 3</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-3.jpg" alt="Image 3 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-4.jpg"
+            alt="Image 4"
+            data-modal-target="#modal4"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal4">
+            <div class="modal-header">
+              <h2>Gallery Image 4</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-4.jpg" alt="Image 4 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-5.jpg"
+            alt="Image 5"
+            data-modal-target="#modal5"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal5">
+            <div class="modal-header">
+              <h2>Gallery Image 5</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-5.jpg" alt="Image 5 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-6.jpg"
+            alt="Image 6"
+            data-modal-target="#modal6"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal6">
+            <div class="modal-header">
+              <h2>Gallery Image 6</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-6.jpg" alt="Image 6 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-7.jpg"
+            alt="Image 7"
+            data-modal-target="#modal7"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal7">
+            <div class="modal-header">
+              <h2>Gallery Image 7</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-7.jpg" alt="Image 7 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="gallery-8-2.jpg"
+            alt="Image 8"
+            data-modal-target="#modal8"
+            style="cursor: pointer"
+          />
+          <div class="modal" id="modal8">
+            <div class="modal-header">
+              <h2>Gallery Image 8</h2>
+              <button class="close-button" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="gallery-8-2.jpg" alt="Image 8 Large" />
+              <p>This is another beautiful photo from my portfolio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Place overlay ONCE here: -->
+      <div id="overlay"></div>
+      <div class="footer">
+        <h3>Copyright PhotoFolio All Right Reserved</h3>
+        <div class="last-icon">
+          <img src="instagram (1).png" alt="" width="30px" />
+          <img src="icon-email.svg" alt="" class="Image" width="34px" />
+          <img src="icon-phone.svg" alt="" width="29px" />
+        </div>
+        <h4>Designed by <a href="#">big dave</a></h4>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

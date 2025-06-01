@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <nav class="navbar">
+          <div class="logo">PhotoFolio</div>
+
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <span class="Contact">
+            <img src="icon-email.svg" alt="Email Icon" />
+            <img src="icon-phone.svg" alt="phone icone" />
+            <img src="instagram (1).png" alt="Instagram Icon" width="20px" />
+          </span>
+        </nav>
+      </div>
+      <hr />
+      <section class="main-menu">
+        <h1>Contact</h1>
+        <p>
+          Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
+          odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum
+          debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum
+          dolorem.
+        </p>
+      </section>
+      <div class="swiche">
+        <a href="#">Home /</a>
+        <a href="#">Contact</a>
+      </div>
+      <section class="contact-section">
+        <div class="contact-info">
+          <div class="info-box">
+            <img src="maps-and-flags (1).png" alt="" class="icon" />
+            <div>
+              <h4>Location</h4>
+              <p>A108 Adam Street, New York</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <img src="mobile.png" alt="" class="icon" />
+            <div>
+              <h4>Call</h4>
+              <p>+1 5589 55488 55</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <img src="email (1).png" alt="" class="icon" />
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <input
+            type="text"
+            class="subject"
+            placeholder="Subject"
+            class="subject"
+          />
+          <textarea placeholder="Message"></textarea>
+        </form>
+        <button class="btn">Available for Hire</button>
+      </section>
+      <div class="footer">
+        <h3>Copyright PhotoFolio All Right Reserved</h3>
+        <div class="last-icon">
+          <img src="instagram (1).png" alt="" width="30px" />
+          <img src="icon-email.svg" alt="" class="Image" width="34px" />
+          <img src="icon-phone.svg" alt="" width="29px" />
+        </div>
+        <h4>Designed by <a href="#">big dave</a></h4>
+      </div>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById('navLinks').classList.toggle('show');
+      }
+    </script>
+  </body>
+</html>
